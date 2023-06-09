@@ -3,3 +3,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+.a-design{
+    text-decoration: none;
+    color: white;
+}
+.placement-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m--20{
+    margin: 20px;
+}
+.bg-image-header{
+    background-image: url(https://baku.ws/uploads/posts/2021-04/1618922817_1615902776_2fce5360dfe19196d0a7.jpg);
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    
+}.small--text{
+    font-size: 20px;
+}
+.big--text{
+    font-size: 40px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 30px;
+color: black;
+}
+.btn--header{
+    transition: 0.3s;
+    border: 1px solid white;
+    background-color: transparent;
+    color: bisque;
+    padding: 20px;
+    margin: 30px;
+    cursor: pointer;
+}
+.btn--header:hover{
+    background-color: white;
+    color: black;
+}
+.img-main-right{
+   
+   object-fit: cover;
+   object-position: center;
+   height: 400px;
+   width: 500px;
+   padding: 20px;
+   
+  
+}
+.img-main-right:hover{
+    scale: 1.1;
+    filter: brightness(70%);
+}
+.card-image{
+    
+   
+   object-fit: cover;
+   object-position: center;
+  padding: 20px;
+  margin: 20px;
+   
+}
